@@ -37,3 +37,9 @@ If gnuplot is installed:
 
 $ gnuplot
 gnuplot> p 'T_CPU' w l,'T_GPU' w l,'./T_exact' w l
+
+If python is installed (with matplotlib), one can plot each file individually from the CLI:
+
+$ python dataPlot.py T_CPU &
+$ python dataPlot.py T_GPU &
+$ python dataPlot.py T_exact &
