@@ -1,7 +1,7 @@
 CUDAworks
 =========
 
-This project is about simple codes and applications in Compute Unified Device Architecture (CUDA).
+This project is about codes and applications in Compute Unified Device Architecture (CUDA).
 
 At present there is one directory 'proj_0' in which heat equation is solved in single dimension. This shows the CPU and GPU comparison for large array computations.
 
