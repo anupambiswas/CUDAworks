@@ -1,6 +1,6 @@
 This project deals with a 2D heat transfer problem for square domain. The code studies the computation speeds for CPU and GPU.
 
-The side of the square domain is divided in N parts. The length of each such part is given by dx (set equal to 0.001 as a macro).
+The side of the square domain is divided in N parts. Hence the total number of divisions for the entire square domain is N * N. The length of each such part is given by dx (set equal to 0.001 as a macro).
 
 The boundary conditions are given by trigonometric functions. A source term for each spatial position is also taken into account.
 
